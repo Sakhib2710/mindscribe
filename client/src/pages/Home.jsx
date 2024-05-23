@@ -21,22 +21,19 @@ export default function Home() {
         <div className="flex p-28 px-3 max-w-6xl justify-between align-middle">
           <div className="my-auto mx-auto p-16 flex flex-col gap-6">
             <h1 className="text-7xl">
-              <span className="text-cyan-500">Top Picks!</span> <br/>Your
-              Trusted Source for Informed Reading
+              <span className="text-cyan-500">Top Picks!</span> <br />
+              Your Trusted Source for Informed Reading
             </h1>
             <p className="text-2xl mb-8"></p>
             <div className="flex items-center gap-5">
-              <Button size='xl' gradientDuoTone='cyanToBlue'>
+              <Button size="xl" gradientDuoTone="cyanToBlue">
                 Explore Blogs
               </Button>
             </div>
           </div>
         </div>
         <div className="my-auto mr-20">
-          <img
-            src="../../public/image.webp"
-            alt=""
-          />
+          <img src="/public/image.webp" alt="" />
         </div>
       </div>
       {/* <div className="p-3 bg-amber-100 dark:bg-slate-700">
