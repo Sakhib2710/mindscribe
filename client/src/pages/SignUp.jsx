@@ -43,7 +43,7 @@ export default function SignUp() {
         {/* left */}
         <div className="flex-1">
           <div className="flex gap-2">
-            <img src="/public/assets/logo.png" alt="" className="w-20" />
+            <img src="/logo.png" alt="" className="w-20" />
             <h1 className="my-auto text-3xl">MindScribe Blog</h1>
           </div>
           <p className="text-lg pl-2 mt-5">Join Insightful Reads</p>
@@ -89,6 +89,7 @@ export default function SignUp() {
               gradientDuoTone="cyanToBlue"
               type="submit"
               disabled={loading}
+              outline
             >
               {loading ? (
                 <>

@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
         <div className="my-auto mr-20">
-          <img src="/public/assets/image.webp" alt="" />
+          <img src="/image.webp" alt="" />
         </div>
       </div>
       {/* <div className="p-3 bg-amber-100 dark:bg-slate-700">
