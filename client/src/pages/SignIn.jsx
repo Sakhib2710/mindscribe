@@ -49,7 +49,7 @@ export default function SignIn() {
         <div className="flex-1">
           <div className="flex gap-2">
             <img
-              src="https://www.imghippo.com/i/67GSr1716471589.png"
+              src="https://i.imghippo.com/files/67GSr1716471589.png"
               alt=""
               className="w-20"
             />
