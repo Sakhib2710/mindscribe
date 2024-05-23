@@ -55,7 +55,7 @@ export default function Header() {
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
         <div className="flex gap-2">
-          <img src="/public/logo.png" alt="" className="w-10" />
+          <img src="/public/assets/logo.png" alt="" className="w-10" />
           <h1 className="my-auto">MindScribe Blog</h1>
         </div>
       </Link>
