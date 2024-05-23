@@ -55,7 +55,7 @@ export default function Header() {
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
         <div className="flex gap-2">
-          <img src="/logo.png" alt="" className="w-10" />
+          <img src="https://i.ibb.co/7YKrchP/logo.png" alt="logo" className="w-10"/>
           <h1 className="my-auto">MindScribe Blog</h1>
         </div>
       </Link>
@@ -75,7 +75,7 @@ export default function Header() {
       <div className="flex gap-2 md:order-2">
         <Button
           className="w-12 h-9 hidden sm:inline"
-          color={theme === 'light'?'gray':'dark'}
+          color={theme === "light" ? "gray" : "dark"}
           pill
           onClick={() => dispatch(toggleTheme())}
         >
