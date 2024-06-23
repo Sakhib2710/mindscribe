@@ -43,7 +43,7 @@ export default function SignUp() {
         {/* left */}
         <div className="flex-1">
           <div className="flex gap-2">
-            <img src="/client/logo.png" alt="" className="w-20" />
+            <img src="./client/logo.png" alt="" className="w-20" />
 
             <h1 className="my-auto text-3xl">MindScribe Blog</h1>
           </div>
