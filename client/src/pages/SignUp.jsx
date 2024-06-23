@@ -43,7 +43,11 @@ export default function SignUp() {
         {/* left */}
         <div className="flex-1">
           <div className="flex gap-2">
-            <img src="./client/logo.png" alt="" className="w-20" />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/mern-blog-bfa84.appspot.com/o/1719155843055logo.png?alt=media&token=29c53ab7-9d63-4b7a-8fc6-efc5817b0d45"
+              alt=""
+              className="w-20"
+            />
 
             <h1 className="my-auto text-3xl">MindScribe Blog</h1>
           </div>

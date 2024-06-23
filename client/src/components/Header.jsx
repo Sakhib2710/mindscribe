@@ -55,7 +55,11 @@ export default function Header() {
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
         <div className="flex gap-2">
-          <img src="./client/logo.png" alt="logo" className="w-10"/>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mern-blog-bfa84.appspot.com/o/1719155843055logo.png?alt=media&token=29c53ab7-9d63-4b7a-8fc6-efc5817b0d45"
+            alt="logo"
+            className="w-10"
+          />
           <h1 className="my-auto">MindScribe Blog</h1>
         </div>
       </Link>
